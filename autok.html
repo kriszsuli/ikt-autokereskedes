@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autók</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="assets/logo.png" alt="Pollák logó">
+            </div>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="autok.html">Autók</a></li>
+                <li><a href="#about">Rólunk</a></li>
+                <li><a href="">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="car-filters">
+        <h2>Autók keresése</h2>
+        <form id="filterForm">
+            <label for="priceFilter">Max ár (Ft):</label>
+            <input type="number" id="priceFilter" placeholder="Max ár">
+            
+            <label for="powerFilter">Min. teljesítmény (LE):</label>
+            <input type="number" id="powerFilter" placeholder="Min teljesítmény">
+            
+            <label for="engineFilter">Min. motortérfogat (cm³):</label>
+            <input type="number" id="engineFilter" placeholder="Min motortérfogat">
+            
+            <button type="submit">Szűrés</button>
+        </form>
+    </section>
+
+    <section class="cars" id="carList">
+        <!-- Az autók itt fognak megjelenni (remélem)-->
+    </section>
+
+    <footer>
+        <div class="logo">
+            <img src="assets/logo.png" alt="Pollák logó">
+        </div>
+        <a href="https://pollak.hu/">www.pollak.hu</a>
+    </footer>
+
+    <script src="js/autok.js"></script>
+</body>
+</html>
