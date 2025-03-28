@@ -15,12 +15,12 @@ const autos = [
     new Auto('assets/car3.jpg', 2000000, 90, 1400, 2010, 130000),
     new Auto('assets/car4.webp', 4500000, 180, 2200, 2017, 60000),
     new Auto('assets/car5.jpg', 6000000, 250, 3000, 2020, 25000),
-    new Auto('assets/car6.jpg', 6000000, 250, 3000, 2020, 25000),
-    new Auto('assets/car7.jpg', 6000000, 250, 3000, 2020, 25000),
-    new Auto('assets/car8.jpg', 6000000, 250, 3000, 2020, 25000),
-    new Auto('assets/car9.jpg', 6000000, 250, 3000, 2020, 25000),
-    new Auto('assets/car10.jpg', 6000000, 250, 3000, 2020, 25000),
-    new Auto('assets/car11.webp', 6000000, 250, 3000, 2020, 25000)
+    new Auto('assets/car6.jpg', 8000000, 80, 3300, 2021, 25000),
+    new Auto('assets/car7.jpg', 7000000, 190, 2500, 2023, 13000),
+    new Auto('assets/car8.jpg', 15000000, 150, 4000, 2022, 30000),
+    new Auto('assets/car9.jpg', 9000000, 60, 1000, 2030, 195000),
+    new Auto('assets/car10.jpg', 5000000, 590, 2100, 2069, 31000),
+    new Auto('assets/car11.webp', 11000000, 450, 9000, 1999, 105000)
 ];
 
 function displayCars(cars) {
